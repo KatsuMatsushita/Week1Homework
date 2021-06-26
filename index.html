@@ -12,6 +12,8 @@
      The following has a header where "seo" is in a slightly different color-->
     <header>
         <h1>Hori<span id="seo">seo</span>n</h1>
+        <!-- hidden header added for text readers -->
+        <h1 class="hidden">Horiseon</h1>
         <!-- change the div that was here into a nav-->
         <nav>
             <ul>
@@ -29,11 +31,13 @@
     </header>
 
     <section class="hero">
-        <h2 class="hidden">Hero Marketing Image</h2>
-        <!--
-        <img src="./assets/images/digital-marketing-meeting.jpg" alt="A strategic marketing meeting with several people looking over a project plan"  class="hero"/>
+        <h2 class="hidden">Hero Marketing Header Image</h2>
+        <!-- Tried to attempt to have the image called by HTML to attempt a more semantic HTML but found that the image would size differently
+        This is kept outside of the header tags, to conform to the original functionality and look of the page.
+            <img src="./assets/images/digital-marketing-meeting.jpg" alt="A strategic marketing meeting with several people looking over a project plan"  class="hero"/>
             -->
     </section>
+
 <!-- div has been replaced with article and section to provide better accessibility -->
     <main class="content">
         <section id="search-engine-optimization" class="search-engine-optimization">
